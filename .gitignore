@@ -1,0 +1,21 @@
+consumercomplaints.csv
+# Data files
+*.csv
+*.xlsx
+*.json
+*.pkl
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# macOS files
+.DS_Store
+
+# Virtual environment
+venv/
+env/
