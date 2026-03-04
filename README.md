@@ -450,7 +450,7 @@ Consumer Financial Protection Bureau (CFPB) Consumer Complaint Database
 
 ---
 
-## 📞 Contact
+
 
 For technical questions about this implementation or collaboration opportunities, please open an issue or reach out directly.
 
