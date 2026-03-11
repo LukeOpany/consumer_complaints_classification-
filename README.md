@@ -13,6 +13,14 @@
 
 ---
 
+## 📖 About
+
+This project is a **machine learning-powered text classification system** that automatically categorizes consumer financial complaints submitted to the [Consumer Financial Protection Bureau (CFPB)](https://www.consumerfinance.gov/data-research/consumer-complaints/). Using natural language processing and a Stochastic Gradient Descent (SGD) classifier, the system processes complaint narratives and assigns each complaint to one of **18+ product categories** (e.g., Credit Reporting, Debt Collection, Credit Cards, Mortgages).
+
+The dataset consists of **887,808 real-world complaints** filtered from the CFPB's public database. A key challenge addressed in this project is severe **class imbalance** (up to 79,560:1 ratio between categories), which was handled via stratified sampling. The end-to-end pipeline covers data ingestion, text preprocessing (stopword removal, stemming/lemmatization), feature extraction with `CountVectorizer`, model training, and real-time inference — making it suitable as a foundation for production complaint-routing systems in financial services.
+
+---
+
 ## 🚀 Executive Summary
 
 > **The Challenge**: Financial institutions process millions of consumer complaints annually, with manual classification consuming valuable resources and introducing human error. The Consumer Financial Protection Bureau (CFPB) dataset contains over 3 million complaints requiring accurate categorization across multiple product types.
