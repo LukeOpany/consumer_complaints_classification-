@@ -1,4 +1,4 @@
-# 🎯 Consumer Complaints Classification System
+# Consumer Complaints Classification System
 *Transforming CFPB complaint data into actionable insights through intelligent classification*
 
 <div align="center">
@@ -13,13 +13,13 @@
 
 ---
 
-## 🚀 Executive Summary
+## Executive Summary
 
 > **The Challenge**: Financial institutions process millions of consumer complaints annually, with manual classification consuming valuable resources and introducing human error. The Consumer Financial Protection Bureau (CFPB) dataset contains over 3 million complaints requiring accurate categorization across multiple product types.
 
 > **The Solution**: An intelligent classification system that automatically categorizes consumer complaints into product types with high accuracy, enabling faster response times and improved regulatory compliance.
 
-### 🏆 Key Achievements
+### Key Achievements
 - **High-Volume Processing**: Successfully processed **887,808 consumer complaints**
 - **Multi-Class Classification**: Accurate categorization across **18+ product categories**
 - **Severe Class Imbalance Handling**: 79,560:1 imbalance ratio successfully addressed
@@ -27,7 +27,7 @@
 
 ---
 
-## 📊 Project Overview
+## Project Overview
 
 ### Business Impact
 This system addresses critical pain points in financial services:
@@ -50,7 +50,7 @@ dataset_stats = {
 
 ---
 
-## 🏗️ Technical Architecture
+## Technical Architecture
 
 ### Data Processing Pipeline
 ```mermaid
@@ -79,7 +79,7 @@ graph LR
 
 ---
 
-## 🔬 Model Development & Performance
+## Model Development & Performance
 
 ### Dataset Characteristics
 ```python
@@ -128,7 +128,7 @@ model_benefits = {
 
 ---
 
-## 🛠️ Implementation Deep Dive
+## Implementation Deep Dive
 
 ### Data Preprocessing Pipeline
 ```python
@@ -186,7 +186,7 @@ print(f"Predicted category: {prediction}")
 
 ---
 
-## 📈 Results & Performance Analysis
+## Results & Performance Analysis
 
 ### Model Performance Metrics
 Based on your implementation with 887K records:
@@ -215,7 +215,7 @@ sample_predictions = {
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 ```bash
@@ -263,7 +263,7 @@ def retrain_model(new_data_path):
 
 ---
 
-## 📊 Data Analysis & Insights
+## Data Analysis & Insights
 
 ### Class Imbalance Visualization
 Your project includes comprehensive data analysis:
@@ -307,7 +307,7 @@ def analyze_complaint_patterns(data):
 
 ---
 
-## 🏆 Production Considerations
+## Production Considerations
 
 ### Scalability Features
 - **Batch Processing**: Handles large datasets efficiently
@@ -340,7 +340,7 @@ def monitor_model_performance(predictions, actuals):
 
 ---
 
-## 🔍 Technical Challenges & Solutions
+## Technical Challenges & Solutions
 
 ### Challenge 1: Severe Class Imbalance (79,560:1 ratio)
 **Solution**: 
@@ -362,7 +362,7 @@ def monitor_model_performance(predictions, actuals):
 
 ---
 
-## 📚 Technical Learning Outcomes
+## Technical Learning Outcomes
 
 This project demonstrates mastery of:
 
@@ -386,7 +386,7 @@ This project demonstrates mastery of:
 
 ---
 
-## 🚀 Future Enhancements
+## Future Enhancements
 
 ### Immediate Improvements
 - [ ] **Advanced NLP**: Implement TF-IDF or BERT embeddings
@@ -402,7 +402,7 @@ This project demonstrates mastery of:
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 This project welcomes contributions! Areas for improvement:
 
@@ -428,7 +428,7 @@ git push origin feature/your-enhancement
 
 ---
 
-## 📄 License & Citation
+## License & Citation
 
 This project is licensed under the MIT License.
 
@@ -438,28 +438,3 @@ Consumer Financial Protection Bureau (CFPB) Consumer Complaint Database
 - **Records Used**: 887,808 complaints with narratives
 - **Time Period**: Historical complaint data
 
-### Citation
-```bibtex
-@software{opany2024consumer_complaints,
-  title={Consumer Complaints Classification System},
-  author={Opany, Luke},
-  year={2024},
-  url={https://github.com/LukeOpany/consumer_complaints_classification-}
-}
-```
-
----
-
-
-
-For technical questions about this implementation or collaboration opportunities, please open an issue or reach out directly.
-
----
-
-<div align="center">
-
-**⭐ If this project demonstrates valuable ML engineering skills, please give it a star!**
-
-*Showcasing practical machine learning solutions for financial services compliance and operational efficiency*
-
-</div>
