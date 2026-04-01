@@ -428,10 +428,6 @@ git push origin feature/your-enhancement
 
 ---
 
-## License & Citation
-
-This project is licensed under the MIT License.
-
 ### Data Source
 Consumer Financial Protection Bureau (CFPB) Consumer Complaint Database
 - **Source**: https://www.consumerfinance.gov/data-research/consumer-complaints/
