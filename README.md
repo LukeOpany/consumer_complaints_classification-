@@ -432,5 +432,5 @@ git push origin feature/your-enhancement
 Consumer Financial Protection Bureau (CFPB) Consumer Complaint Database
 - **Source**: https://www.consumerfinance.gov/data-research/consumer-complaints/
 - **Records Used**: 887,808 complaints with narratives
-- **Time Period**: Historical complaint data
+
 
