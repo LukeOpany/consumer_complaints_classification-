@@ -1,15 +1,5 @@
 # Consumer Complaints Classification System
-*Transforming CFPB complaint data into actionable insights through intelligent classification*
 
-<div align="center">
-
-[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://python.org)
-[![Scikit-Learn](https://img.shields.io/badge/ML-Scikit--Learn-orange.svg)](https://scikit-learn.org)
-[![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange.svg)](https://jupyter.org)
-[![Data](https://img.shields.io/badge/Dataset-887K%20Records-green.svg)](#dataset-overview)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-
-</div>
 
 ---
 
